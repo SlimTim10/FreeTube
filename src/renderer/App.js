@@ -175,6 +175,7 @@ export default defineComponent({
         setTimeout(() => {
           this.checkForNewUpdates()
           this.checkForNewBlogPosts()
+          this.$refs.topNav?.focusSearch()
         }, 500)
       })
 
